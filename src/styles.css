@@ -1,0 +1,33 @@
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+
+}
+body{
+    background-color: white;
+    color: black;
+    font-family: '', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+header{
+    background-color: black;
+    color: white;
+    padding: 1rem;
+}
+nav{
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+}
+.navbar-custom {
+    background-color: lightgreen;
+}
+.navbar-brand{
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
