@@ -22,12 +22,13 @@ nav{
     color: white;
     padding: 1rem;
 }
+
 .navbar-custom {
-    background-color: lightgreen;
+    background-color: black !important; /* Ensures this rule takes precedence */
 }
-.navbar-brand{
-    font-size: 2rem;
-    font-weight: bold;
-    text-decoration: none;
-    text-transform: uppercase;
+
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+    color: white !important; /* Ensures this rule takes precedence */
 }
+
